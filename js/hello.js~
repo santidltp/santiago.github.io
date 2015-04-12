@@ -1,0 +1,23 @@
+$(function() {
+    $('#send').bind('click',
+        function(event){
+  event.preventDefault();
+            var email = $('#email').val();
+           
+            $.ajax({
+                type: 'POST',
+                url: '/send',
+                data: {
+                    email: email,
+                  
+                }
+            }).done(function(msg) {
+                if (msg.error){
+                    generate('Email and password is not matched','error');
+                } else {
+			console.log('exitso');
+                    window.location.replace("/send");
+                }
+            });
+        });
+});
