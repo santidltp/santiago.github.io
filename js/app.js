@@ -8,4 +8,7 @@
 			console.log(data)
 		})
 	}]);
+		portApp.controller('tech',['$scope','$html', function($scope,$html){
+			
+		}]);
 })();
