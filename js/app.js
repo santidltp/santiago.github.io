@@ -6,10 +6,10 @@
 	portApp.controller('experienceCTRL',['$scope', '$http', function($scope,$http){
 		$http.get(xp).success(function(data){
 			$scope.experience = data;
-		})
+		});
 	}]);
 
-	portApp.controller('tech',['$scope','$html', function($scope,$html){
+	portApp.controller('techCTRL',['$scope', '$http', function($scope,$http){
 		$http.get(tk).success(function(data){
 			$scope.technology = data;
 		});
