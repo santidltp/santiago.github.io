@@ -21,28 +21,28 @@
         "img": "img/technologies/java.png"
     }, {
         "title": "javascript",
-        "img/technologies/js.png"
+        "img":"img/technologies/js.png"
     }, {
         "title": "bower",
-        "img/technologies/bower.png"
+        "img": "img/technologies/bower.png"
     }, {
         "title": "grunt",
-        "img/technologies/grunt.png"
+        "img": "img/technologies/grunt.png"
     }, {
         "title": "css3",
-        "img/technologies/css3.png"
+        "img": "img/technologies/css3.png"
     }, {
         "title": "Mysql",
-        "img/technologies/mysql.png"
+        "img": "img/technologies/mysql.png"
     }, {
         "title": "jquery",
-        "img/technologies/jquery.png"
+        "img": "img/technologies/jquery.png"
     }, {
         "title": "github",
-        "img/technologies/github.png"
+        "img": "img/technologies/github.png"
     }, {
         "title": "mocha",
-        "img/technologies/mocha.png"
+        "img": "img/technologies/mocha.png"
     }, {
         "title": "heroku",
         "img/technologies/heroku.png"
