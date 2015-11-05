@@ -1,7 +1,5 @@
 [{
-"company": "EMC",
- "time":"Summer Internship 2015",
-"img":"img/companies/emc.png"
-}
-
-]
+    "company": "EMC",
+    "time": "Summer Internship 2015",
+    "img": "img/companies/emc.png"
+}]
