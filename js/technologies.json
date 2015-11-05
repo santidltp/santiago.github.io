@@ -45,11 +45,11 @@
         "img": "img/technologies/mocha.png"
     }, {
         "title": "heroku",
-        "img/technologies/heroku.png"
+        "img": "img/technologies/heroku.png"
     }, {
         "title": "aws",
-        "img/technologies/aws.png"
+        "img": "img/technologies/aws.png"
     }, {
         "title": "passport",
-        "img/technologies/passport.png"
+        "img": "img/technologies/passport.png"
 }]
