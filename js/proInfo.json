@@ -4,7 +4,7 @@
         "title": "First Last Bank",
         "info": "Desktop application developed in C++ that simulates a bank ATM. This application uses a BinaryTree data structure to keep a track of all its users and their data. And no, this doesn't print real money! <a href=\"https://github.com/santidltp/First-Last-Bank\">Click here</a> and take a look at its GitHub repo.",
         "date": "May 2010",
-        "img": "img/portfolio/first.png",
+        "img": "img/portfolio/first.jpg",
         "id": "portfolioModal1"
     },
 
