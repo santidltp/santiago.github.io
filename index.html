@@ -154,106 +154,19 @@
                         </p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" ng-controller="icoCTRL">
                     <!--First Last Bank-->
-                    <div class="col-sm-2 portfolio-item">
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="col-sm-2 portfolio-item" ng-repeat="icon in icons">
+                        <a href="icon.href" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/firsticon.png" class="img-responsive" alt="">
+                        <img src="icon.img" class="img-responsive" alt="">
                         </a>
                     </div>
-                    <!--Boola Boola University-->
-                    <div class="col-sm-2 portfolio-item">
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Boola.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <!--Tic Tac Toe-->
-                    <div class="col-sm-2 portfolio-item">
-                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tictac.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <!--Hardware Store-->
-                    <div class="col-sm-2 portfolio-item">
-                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/barcode.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <!--OOverlap-->
-                    <div class="col-sm-2 portfolio-item">
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/overlap.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <!--Roger-->
-                    <div class="col-sm-2 portfolio-item">
-                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/roger.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <!--Slot Machine-->
-                    <div class="col-sm-2 portfolio-item">
-                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/slotmachine.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <!--Java Examination-->
-                    <div class="col-sm-2 portfolio-item">
-                        <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/javaexam.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <!--Breakout Game-->
-                    <div class="col-sm-2 portfolio-item">
-                        <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/breakout.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
         </section>
