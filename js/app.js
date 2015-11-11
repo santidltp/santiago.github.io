@@ -1,9 +1,9 @@
 (function(){
 	var portApp = angular.module('portApp',['ngRoute']);
-	var xp="https://github.com/santidltp/santidltp.github.io/tree/master/json/experience.json"
-	var tk="https://github.com/santidltp/santidltp.github.io/tree/master/json/technologies.json"
-	var ic="https://github.com/santidltp/santidltp.github.io/tree/master/json/proIcons.json"
-	var pj="https://github.com/santidltp/santidltp.github.io/tree/master/json/proInfo.json"
+	var xp="https://github.com/santidltp/santidltp.github.io/master/json/experience.json"
+	var tk="https://github.com/santidltp/santidltp.github.io/master/json/technologies.json"
+	var ic="https://github.com/santidltp/santidltp.github.io/master/json/proIcons.json"
+	var pj="https://github.com/santidltp/santidltp.github.io/master/json/proInfo.json"
 	
 	portApp.controller('experienceCTRL',['$scope', '$http', function($scope,$http){
 		$http.get(xp).success(function(data){
