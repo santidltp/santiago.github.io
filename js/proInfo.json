@@ -1,93 +1,92 @@
 [
 
-{
-"title":"First Last Bank",
-"info":"Desktop application developed in C++ that simulates a bank ATM. This application uses a BinaryTree data structure to keep a track of all its users and their data. And no, this doesn't print real money! <a href=\"https://github.com/santidltp/First-Last-Bank\">Click here</a> and take a look at its GitHub repo.",
-"date":"May 2010",
-"img":"img/portfolio/first.png",
-"id":"portfolioModal1"
-},
+    {
+        "title": "First Last Bank",
+        "info": "Desktop application developed in C++ that simulates a bank ATM. This application uses a BinaryTree data structure to keep a track of all its users and their data. And no, this doesn't print real money! <a href=\"https://github.com/santidltp/First-Last-Bank\">Click here</a> and take a look at its GitHub repo.",
+        "date": "May 2010",
+        "img": "img/portfolio/first.png",
+        "id": "portfolioModal1"
+    },
 
 
-{
-"title":"OOverlap",
-"info":"OOverlap is a web application developed by Team Undefined that allows you to check if you and your friends have available time to hang out. <a href=\"https://ooverlap.herokuapp.com\">Click here</a> to go to the website, or <a href=\"https://github.com/umass-cs-326/team-undefined\">click here</a> to check out the GitHub repo.",
-"date":"December 2014",
-"img":"img/portfolio/overlap.png",
-"id":"portfolioModal2"
-},
+    {
+        "title": "OOverlap",
+        "info": "OOverlap is a web application developed by Team Undefined that allows you to check if you and your friends have available time to hang out. <a href=\"https://ooverlap.herokuapp.com\">Click here</a> to go to the website, or <a href=\"https://github.com/umass-cs-326/team-undefined\">click here</a> to check out the GitHub repo.",
+        "date": "December 2014",
+        "img": "img/portfolio/overlap.png",
+        "id": "portfolioModal2"
+    },
 
 
-{
-"title":"Boola Boola University",
-"info":"Desktop application developed in Java that simulates a typical University registration system. This application uses a data base that keeps a track of all resgistered students as well as their courses. Alsways making sure that there is no overlap in their schedule. <a href=\"https://github.com/santidltp/Boola\">Click here</a> and take a look at its GitHub repo.",
-"date":"October 2010",
-"img":"img/portfolio/Boola.png",
-"id":"portfolioModal3"
-},
+    {
+        "title": "Boola Boola University",
+        "info": "Desktop application developed in Java that simulates a typical University registration system. This application uses a data base that keeps a track of all resgistered students as well as their courses. Alsways making sure that there is no overlap in their schedule. <a href=\"https://github.com/santidltp/Boola\">Click here</a> and take a look at its GitHub repo.",
+        "date": "October 2010",
+        "img": "img/portfolio/Boola.png",
+        "id": "portfolioModal3"
+    },
 
 
-{
-"title":"Tic Tac Toe",
-"info":"Desktop application developed in Microsoft Foundation Class Library(MFC) that simulates a Tic Tac Toe game. This game uses artificial intelligence principles that allow the user to play against the machine. Try to beat the machine!. <a href=\"https://github.com/santidltp/Tic-Tac-Toe\">Click here</a> and take a look at its GitHub repo.",
-"date":"November 2010",
-"img":"img/portfolio/ticscreen.png",
-"id":"portfolioModal4"
-},
-
-
-
-
-
-{
-"title":"Slot Machine",
-"info":"Desktop application developed in Java that simulates a Slot Machine game Formula 1 themed. This game uses random generation to load the images. Let's see how many \"fake\" coins you can get! <a href=\"https://github.com/santidltp/Slot-Machine\">Click here</a> and take a look at its GitHub repo.",
-"date":"November 2010",
-"img":"img/portfolio/slotmachine2.png",
-"id":"portfolioModal5"
-},
+    {
+        "title": "Tic Tac Toe",
+        "info": "Desktop application developed in Microsoft Foundation Class Library(MFC) that simulates a Tic Tac Toe game. This game uses artificial intelligence principles that allow the user to play against the machine. Try to beat the machine!. <a href=\"https://github.com/santidltp/Tic-Tac-Toe\">Click here</a> and take a look at its GitHub repo.",
+        "date": "November 2010",
+        "img": "img/portfolio/ticscreen.png",
+        "id": "portfolioModal4"
+    },
 
 
 
 
-{
-"title":"Hardware Store",
-"info":"Desktop application developed in Microsoft Foundation Class Library(MFC) that simulates a hardware store where the users can see the available inventory and make purchases. This program uses a LinkedList that loads the inventory from a database. <a href=\"https://github.com/santidltp/Hardware-store\">Click here</a> and take a look at its GitHub repo.",
-"date":"November 2010",
-"img":"img/portfolio/hardwarestore.png",
-"id":"portfolioModal6"
-},
+    {
+        "title": "Slot Machine",
+        "info": "Desktop application developed in Java that simulates a Slot Machine game Formula 1 themed. This game uses random generation to load the images. Let's see how many \"fake\" coins you can get! <a href=\"https://github.com/santidltp/Slot-Machine\">Click here</a> and take a look at its GitHub repo.",
+        "date": "November 2010",
+        "img": "img/portfolio/slotmachine2.png",
+        "id": "portfolioModal5"
+    },
 
 
 
 
-{
-"title":"Java Examinator",
-"info":"This program, is a simple program that simulates the JAVA Certification Examination. First, you would have to provide your user id and your four-digit password to start the exam. If the user successfully logs in, a preparation message will pup up to inform the user that he/she has 10 minutes to answer 20 questions about JAVA. The exam will start as soon as the user presses ENTER. The user id, password, and the number of exams taken by an user are stored in a database. All the questions that the program uses are also stored in a database. All questions are devided in four levels of difficulty, level one the lowest and level four the highest. <a href=\"https://github.com/santidltp/Examiner\">Click here</a> and take a look at its GitHub repo.",
-"date":"December 2010",
-"img":"img/portfolio/javaexam.png",
-"id":"portfolioModal7"
-},
+    {
+        "title": "Hardware Store",
+        "info": "Desktop application developed in Microsoft Foundation Class Library(MFC) that simulates a hardware store where the users can see the available inventory and make purchases. This program uses a LinkedList that loads the inventory from a database. <a href=\"https://github.com/santidltp/Hardware-store\">Click here</a> and take a look at its GitHub repo.",
+        "date": "November 2010",
+        "img": "img/portfolio/hardwarestore.png",
+        "id": "portfolioModal6"
+    },
 
 
 
 
-{
-"title":"Roger The Robot",
-"info":"Roger is a virtual robot programmed in desktop simulator developed in C. This robot uses principles such as; Inverse kinematics, PD controllers, and more. There is no Github repository available for this project, but stay tuned because there will be one soon!",
-"date":"December 2014",
-"img":"img/portfolio/roger.png",
-"id":"portfolioModal8"
-},
+    {
+        "title": "Java Examinator",
+        "info": "This program, is a simple program that simulates the JAVA Certification Examination. First, you would have to provide your user id and your four-digit password to start the exam. If the user successfully logs in, a preparation message will pup up to inform the user that he/she has 10 minutes to answer 20 questions about JAVA. The exam will start as soon as the user presses ENTER. The user id, password, and the number of exams taken by an user are stored in a database. All the questions that the program uses are also stored in a database. All questions are devided in four levels of difficulty, level one the lowest and level four the highest. <a href=\"https://github.com/santidltp/Examiner\">Click here</a> and take a look at its GitHub repo.",
+        "date": "December 2010",
+        "img": "img/portfolio/javaexam.png",
+        "id": "portfolioModal7"
+    },
 
 
 
-{
-"title":"Tic Tac Toe",
-"info":"Game developed in Java using wide range of programming patterns such as; Factory patern, Singleton pattern, Strategy pattern, and State pattern among others. No Github repository available.",
-"date":"May 2014",
-"img":"img/portfolio/breakoutgame.png",
-"id":"portfolioModal9"
-}
+
+    {
+        "title": "Roger The Robot",
+        "info": "Roger is a virtual robot programmed in desktop simulator developed in C. This robot uses principles such as; Inverse kinematics, PD controllers, and more. There is no Github repository available for this project, but stay tuned because there will be one soon!",
+        "date": "December 2014",
+        "img": "img/portfolio/roger.png",
+        "id": "portfolioModal8"
+    },
+
+
+
+    {
+        "title": "Tic Tac Toe",
+        "info": "Game developed in Java using wide range of programming patterns such as; Factory patern, Singleton pattern, Strategy pattern, and State pattern among others. No Github repository available.",
+        "date": "May 2014",
+        "img": "img/portfolio/breakoutgame.png",
+        "id": "portfolioModal9"
+    }
 
 ]
