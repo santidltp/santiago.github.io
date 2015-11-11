@@ -1,6 +1,6 @@
 [{
 "title":"Tic Tac Toe",
-"info":"Desktop application developed in Microsoft Foundation Class Library(MFC) that simulates a Tic Tac Toe game. This game uses artificial intelligence principles that allow the user to play against the machine. Try to beat the machine!. <a href="https://github.com/santidltp/Tic-Tac-Toe">Click here</a> and take a look at its GitHub repo.",
+"info":"Desktop application developed in Microsoft Foundation Class Library(MFC) that simulates a Tic Tac Toe game. This game uses artificial intelligence principles that allow the user to play against the machine. Try to beat the machine!. <a href=\"https://github.com/santidltp/Tic-Tac-Toe\">Click here</a> and take a look at its GitHub repo.",
 "date":"November 2010",
 "img":"img/portfolio/ticscreen.png"
 },{}]
