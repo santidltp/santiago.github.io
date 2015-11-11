@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="portApp">atu
+<html lang="en" ng-app="portApp">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -336,17 +336,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" ng-controller="proInfo">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Tic Tac Toe</h2>
+                            <div class="modal-body" ng-repeat="info in projects">
+                                <h2>{{info.title}}</h2>
                                 <hr class="star-primary">
-                                <img src="img/portfolio/ticscreen.png" class="img-responsive img-centered" alt="">
-                                <p>Desktop application developed in Microsoft Foundation Class Library(MFC) that simulates a Tic Tac Toe game. This game uses artificial intelligence principles that allow the user to play against the machine. Try to beat the machine!. <a href="https://github.com/santidltp/Tic-Tac-Toe">Click here</a> and take a look at its GitHub repo.</p>
+                                <img src="{{info.img}}" class="img-responsive img-centered" alt="">
+                                <p>{{info.info}}</p>
                                 <ul class="list-inline item-details">
                                     <li>Date:
-                                        <strong>November 2010</strong>
+                                        <strong{{info.date}}</strong>
                                     </li>
                                 </ul>
                                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
