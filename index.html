@@ -136,27 +136,24 @@
                 </div>
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 col-lg-offset-0">
-                                    <p class="logo">Projects</p>
-                                    <p class="para">Here you can find some of the projects I have the developed. Some of them are school
-                                        projects and some of them are personal projects developed for personal learning.
-                                    </p>
-                                </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-lg-offset-1">
+                                <p class="logo">Projects</p>
+                                <p class="para">Here you can find some of the projects I have the developed. Some of them are school projects
+                                    and some of them are personal projects developed for personal learning.
+                                </p>
                             </div>
-                            <div class="row" ng-controller="icoCTRL">
-                                <!--First Last Bank-->
-                                <div class="col-sm-2 portfolio-item" ng-repeat="icon in icons">
-                                    <a href="{{icon.href}}" class="portfolio-link" data-toggle="modal">
-                                        <div class="caption">
-                                            <div class="caption-content">
-                                                <i class="fa fa-search-plus fa-3x"></i>
-                                            </div>
+                        </div>
+                        <div class="row" ng-controller="icoCTRL">
+                            <!--First Last Bank-->
+                            <div class="col-sm-2 portfolio-item" ng-repeat="icon in icons">
+                                <a href="{{icon.href}}" class="portfolio-link " data-toggle="modal">
+                                    <div class="caption">
+                                        <div class="caption-content"> 
                                         </div>
-                                        <img src="{{icon.img}}" class="img-responsive" alt="">
-                                    </a>
-                                </div>
+                                    </div>
+                                    <img src="{{icon.img}}" class="img-responsive img-rounded" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -205,7 +202,7 @@
                                 <div class="modal-body">
                                     <h2>{{info.title}}</h2>
                                     <hr class="star-primary">
-                                    <img src="{{info.img}}" class="img-responsive img-centered" alt="">
+                                    <img src="{{info.img}}" class="img-responsive img-centered " alt="">
                                     <p>{{info.info}}</p>
                                     <ul class="list-inline item-details">
                                         <li>Date:
