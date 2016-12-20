@@ -67,106 +67,106 @@
     <!--</nav>-->
     <!-- Header -->
     <header>
-    <div class="container" style="padding-top: 60px;">
-        
-        <div class="row banner ">
-            <div class="row">
-                <div class="col-md-2">
-                    <img class="img-responsive img-rounded" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <h4>Santiago De La Torre</h4>
-                        <p class="text-muted">Software Engineer</p>
-                        <ul class="list-inline item-details">
-                            <li>
-                                <a href="http://github.com/santidltp" class="btn btn-social-icon btn-xs btn-github"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://twitter.com/santidltp" class="btn btn-social-icon btn-xs btn-twitter"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://linkedin.com/in/santidltp" class="btn btn-social-icon btn-xs btn-linkedin"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="row">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <p class="logo">Education</p>
-                                </div>
-                            </div>
-                            <!--UMass-->
-                            <div class="col-sm-6 portfolio-item">
-                                <img id="chees" src="img/education/umass.png" style="height: 45px; width: 50px" />
-                                <h7>Univ. of Massachusetts - Amherst</h7>
-                                <p id="esto">B.S. in Computer Science</p>
-                            </div>
+        <div class="container" style="padding-top: 60px;">
+            <div class="row banner ">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="img-responsive img-rounded" src="img/profile.png" alt="">
+                        <div class="intro-text">
+                            <h4>Santiago De La Torre</h4>
+                            <p class="text-muted">Software Engineer</p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <a href="http://github.com/santidltp" class="btn btn-social-icon btn-xs btn-github"><i class="fa fa-github"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://twitter.com/santidltp" class="btn btn-social-icon btn-xs btn-twitter"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://linkedin.com/in/santidltp" class="btn btn-social-icon btn-xs btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <!--AboutMe-->
-                    <div class="row">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <p class="logo">About Me</p>
-                                </div>
-                            </div>
-                            <div>
-                                <p class="para">I am just a guy trying to survive in the real world by writing code. I’m finishing my Bachelor's
-                                    degree in Computer Science at the University of Massachusetts - Amherst with a concentration
-                                    in Artificial Intelligence. I started coding in Visual Basic 6.0 when I was 16 years
-                                    old. When was I 16 years old? Well, let’s just say that I used to surf the web with a
-                                    56k modem and sing out loud its connection sound. I am currently living in Sunderland,
-                                    Mass. I don’t have a lot of free time, but when I do, I like to write code, watch Formula
-                                    1, listen to music, among other things.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="container-fluid">
-                            <div class="row" ng-controller="experienceCTRL">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <p class="logo">Work Experience</p>
+                                        <p class="logo">Education</p>
                                     </div>
                                 </div>
+                                <!--UMass-->
+                                <div class="col-sm-6 portfolio-item">
+                                    <img id="chees" src="img/education/umass.png" style="height: 45px; width: 50px" />
+                                    <h7>Univ. of Massachusetts - Amherst</h7>
+                                    <p id="esto">B.S. in Computer Science</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--AboutMe-->
+                        <div class="row">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <!--EMC Sotware-->
-                                    <div class="col-lg-6" ng-repeat="job in experience">
-                                        <img id="chees" class="img-rounded" ng-src="{{job.img}}" />
-                                        <h4 id="esto">{{job.company}}</h4>
-                                        <p id="esto">{{job.time}}</p>
+                                    <div class="col-lg-6">
+                                        <p class="logo">About Me</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="para">I am just a guy trying to survive in the real world by writing code. I’m finishing my
+                                        Bachelor's degree in Computer Science at the University of Massachusetts - Amherst
+                                        with a concentration in Artificial Intelligence. I started coding in Visual Basic
+                                        6.0 when I was 16 years old. When was I 16 years old? Well, let’s just say that I
+                                        used to surf the web with a 56k modem and sing out loud its connection sound. I am
+                                        currently living in Sunderland, Mass. I don’t have a lot of free time, but when I
+                                        do, I like to write code, watch Formula 1, listen to music, among other things.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="container-fluid">
+                                <div class="row" ng-controller="experienceCTRL">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <p class="logo">Work Experience</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <!--EMC Sotware-->
+                                        <div class="col-lg-6" ng-repeat="job in experience">
+                                            <img id="chees" class="img-rounded" ng-src="{{job.img}}" />
+                                            <h4 id="esto">{{job.company}}</h4>
+                                            <p id="esto">{{job.time}}</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-12 col-lg-offset-0">
-                                    <p class="logo">Projects</p>
-                                    <p class="para">Here you can find some of the projects I have the developed. Some of them are school
-                                        projects and some of them are personal projects developed for personal learning.
-                                    </p>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-12 col-lg-offset-0">
+                                        <p class="logo">Projects</p>
+                                        <p class="para">Here you can find some of the projects I have the developed. Some of them are school
+                                            projects and some of them are personal projects developed for personal learning.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row" ng-controller="icoCTRL">
-                                <!--First Last Bank-->
-                                <div class="col-sm-2 portfolio-item" ng-repeat="icon in icons">
-                                    <a href="{{icon.href}}" class="portfolio-link " data-toggle="modal">
-                                        <div class="caption">
-                                            <div class="caption-content">
+                                <div class="row" ng-controller="icoCTRL">
+                                    <!--First Last Bank-->
+                                    <div class="col-sm-2 portfolio-item" ng-repeat="icon in icons">
+                                        <a href="{{icon.href}}" class="portfolio-link " data-toggle="modal">
+                                            <div class="caption">
+                                                <div class="caption-content">
+                                                </div>
                                             </div>
-                                        </div>
-                                        <img src="{{icon.img}}" class="img-responsive img-rounded" alt="">
-                                    </a>
+                                            <img src="{{icon.img}}" class="img-responsive img-rounded" alt="">
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -174,8 +174,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+        </div>
     </header>
     <!-- Education Grid Section -->
     <!-- Portfolio Grid Section -->
@@ -183,7 +182,6 @@
     <!-- About Section -->
     <!-- Technologies Section -->
     <!-- Footer -->
-    
     <footer class="footer">
         <div class="footer-below">
             <div class="container">
