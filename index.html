@@ -9,7 +9,8 @@
     <meta name="author" content="Santiago De La Torre">
     <title>Santiago</title>
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="css/freelancer.css" rel="stylesheet">
     <link href="css/personal.css" rel="stylesheet">
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -55,9 +56,7 @@
                         <li class="page-scroll">
                             <a href="#technologies">Technologies</a>
                         </li>
-<<<<<<< HEAD
-=======
-                        
+
 >>>>>>> 6ae4453106ca93272f89baefabd5c43fd0ec95d6
                     </ul>
                 </div>-->
@@ -200,32 +199,50 @@
         </a>
     </div>
     <!-- Portfolio Modals -->
-    <div ng-controller="proCTRL">
+    <!--<div ng-controller="proCTRL">
         <div ng-repeat="info in projects">
-            <div class="portfolio-modal modal fade" id="{{info.id}}" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl">
-                            </div>
+            <div class="modal fade" id="{{info.id}}" tabindex="0" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">{{info.title}}</h4>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <div class="modal-body">
-                                    <h2>{{info.title}}</h2>
-                                    <hr class="star-primary">
-                                    <img src="{{info.img}}" class="img-responsive img-centered " alt="">
-                                    <p>{{info.info}}</p>
-                                    <ul class="list-inline item-details">
-                                        <li>Date:
-                                            <strong>{{info.date}}</strong>
-                                        </li>
-                                    </ul>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                                </div>
-                            </div>
+                    <div class="modal-body">
+                        <h2>{{info.title}}</h2>
+                        <hr class="star-primary">
+                        <img src="{{info.img}}" class="img-responsive img-centered " alt="">
+                        <p>{{info.info}}</p>
+                        <ul class="list-inline item-details">
+                            <li>Date:
+                                <strong>{{info.date}}</strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>-->
+    <div ng-controller="proCTRL">
+        <div ng-repeat="info in projects">
+            <div class="modal fade" id="{{info.id}}" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">{{info.title}}</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>{{info.info}}</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href = "{{info.gitlink}}" type="button" class="btn btn-default " ng-show="{{info.gitlink}}">
+                                       <span class ="fa fa-github" aria-hidden="true"aria-label="Github Repo"></span> {{info.gitlink}}Github Repo
+                            </a>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><span aria-hidden="true" >Close</span></button>
                         </div>
                     </div>
                 </div>
@@ -234,7 +251,8 @@
     </div>
     <!-- jQuery -->
     <script src="js/jquery-2.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
