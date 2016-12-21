@@ -16,7 +16,7 @@
         "date": "December 2014",
         "img": "img/portfolio/overlap.png",
         "id": "portfolioModal2",
-        "gitlink":"https://github.com/umass-cs-326/team-undefined"
+        "gitlink": "https://github.com/umass-cs-326/team-undefined"
     },
 
 
@@ -35,11 +35,8 @@
         "date": "December 2010",
         "img": "img/portfolio/javaexam.png",
         "id": "portfolioModal7",
-        "gitlink":"https://github.com/santidltp/Examiner"
+        "gitlink": "https://github.com/santidltp/Examiner"
     },
-
-
-
 
     {
         "title": "Roger The Robot",
@@ -47,10 +44,8 @@
         "date": "December 2014",
         "img": "img/portfolio/roger.png",
         "id": "portfolioModal8",
-        "gitlink":""
+        "gitlink": ""
     },
-
-
 
     {
         "title": "Breakout Game",
@@ -58,15 +53,14 @@
         "date": "May 2014",
         "img": "img/portfolio/breakoutgame.png",
         "id": "portfolioModal9",
-        "gitlink":""
-    },
-      {
+        "gitlink": ""
+    }, {
         "title": "CoPRHD",
         "info": "lorem ipsum",
         "date": "present",
         "img": "img/portfolio/coprhd.png",
         "id": "portfolioModal10",
-        "gitlink":"https://github.com/CoprHD/coprhd-controller"
+        "gitlink": "https://github.com/CoprHD/coprhd-controller"
     }
 
 ]
