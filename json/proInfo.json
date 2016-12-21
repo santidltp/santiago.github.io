@@ -54,7 +54,7 @@
 
     {
         "title": "Breakout Game",
-        "info": "Game developed in Java using wide range of programming patterns such as; Factory patern, Singleton pattern, Strategy pattern, and State pattern among others. No Github repository available.",
+        "info": "Game developed in Java using wide range of programming patterns such as; Factory patern, Singleton pattern, Strategy pattern, and State pattern among others.",
         "date": "May 2014",
         "img": "img/portfolio/breakoutgame.png",
         "id": "portfolioModal9",
