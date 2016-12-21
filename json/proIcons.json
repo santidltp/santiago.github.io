@@ -1,37 +1,37 @@
 [{
-        "href": "#portfolioModal1",
-        "img": "img/portfolio/firsticon.png"
-    }, {
-        "href": "#portfolioModal2",
-        "img": "img/portfolio/overlap.png"
-    }, {
-        "href": "#portfolioModal3",
-        "img": "img/portfolio/Boola.png"
-    }, {
-        "href": "#portfolioModal4",
-        "img": "img/portfolio/tictac.png"
-    }, {
-        "href": "#portfolioModal5",
-        "img": "img/portfolio/slotmachine.png"
-    }, {
-        "href": "#portfolioModal6",
-        "img": "img/portfolio/barcode.png"
-    }, {
-        "href": "#portfolioModal7",
-        "img": "img/portfolio/javaexam.png"
-    }, {
-        "href": "#portfolioModal8",
-        "img": "img/portfolio/roger.png"
-    }, {
-        "href": "#portfolioModal9",
-        "img": "img/portfolio/breakout.png"
-    }, {
-        "href": "#portfolioModal10",
-        "img": "img/portfolio/coprhd.png"
-    }, {
-        "href": "#portfolioModal11",
-        "img": "img/portfolio/vipr.png"
-    }, {
         "href": "#portfolioModal12",
         "img": "img/portfolio/under.png"
+    },{
+        "href": "#portfolioModal10",
+        "img": "img/portfolio/coprhd.png"
+    },{
+        "href": "#portfolioModal11",
+        "img": "img/portfolio/vipr.png"
+    },{
+        "href": "#portfolioModal2",
+        "img": "img/portfolio/overlap.png"
+    },{
+        "href": "#portfolioModal8",
+        "img": "img/portfolio/roger.png"
+    },{
+        "href": "#portfolioModal9",
+        "img": "img/portfolio/breakout.png"
+    },{
+        "href": "#portfolioModal7",
+        "img": "img/portfolio/javaexam.png"
+    },{
+        "href": "#portfolioModal3",
+        "img": "img/portfolio/Boola.png"
+    },{
+        "href": "#portfolioModal6",
+        "img": "img/portfolio/barcode.png"
+    },{
+        "href": "#portfolioModal1",
+        "img": "img/portfolio/firsticon.png"
+    },{
+        "href": "#portfolioModal4",
+        "img": "img/portfolio/tictac.png"
+    },{
+        "href": "#portfolioModal5",
+        "img": "img/portfolio/slotmachine.png"
     }]
