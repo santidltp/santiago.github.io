@@ -59,6 +59,14 @@
         "img": "img/portfolio/breakoutgame.png",
         "id": "portfolioModal9",
         "gitlink":""
+    },
+      {
+        "title": "CoPRHD",
+        "info": "lorem ipsum",
+        "date": "present",
+        "img": "img/portfolio/coprhd.png",
+        "id": "portfolioModal10",
+        "gitlink":"https://github.com/CoprHD/coprhd-controller"
     }
 
 ]
