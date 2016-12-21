@@ -61,6 +61,14 @@
         "img": "img/portfolio/coprhd.png",
         "id": "portfolioModal10",
         "gitlink": "https://github.com/CoprHD/coprhd-controller"
+    }, {
+        "title": "ViPR Command",
+        "info": "lorem ipsum",
+        "date": "present",
+        "img": "img/portfolio/vipr.png",
+        "id": "portfolioModal11",
+        "gitlink": "https://github.com/emccode/viprcommand"
     }
+
 
 ]
