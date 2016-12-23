@@ -23,12 +23,12 @@
     "href": "#portfolioModal3",
     "img": "img/portfolio/Boola.png"
 }, {
-    "href": "#portfolioModal6",
-    "img": "img/portfolio/barcode.png"
-}, {
     "href": "#portfolioModal1",
     "img": "img/portfolio/firsticon.png"
-}, {
+},{
+    "href": "#portfolioModal6",
+    "img": "img/portfolio/barcode.png"
+},  {
     "href": "#portfolioModal4",
     "img": "img/portfolio/tictac.png"
 }, {
