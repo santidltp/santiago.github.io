@@ -68,6 +68,13 @@
         "img": "img/portfolio/vipr.png",
         "id": "portfolioModal11",
         "gitlink": "https://github.com/emccode/viprcommand"
+    }, {
+        "title": "Under construction",
+        "info": "lorem ipsum",
+        "date": "present",
+        "img": "img/portfolio/under.png",
+        "id": "portfolioModal12",
+        "gitlink": ""
     }
 
 
