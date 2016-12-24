@@ -2,7 +2,7 @@
 
     {
         "title": "First Last Bank",
-        "info": "Desktop application developed in C++ that simulates a bank ATM. This application uses a BinaryTree data structure to keep a track of all its users and their data. And no, this doesn't print real money!",
+        "info": "Desktop application developed in C++ that simulates a bank ATM. This application uses a BinaryTree data structure to keep a track of all its users and their data.",
         "date": "May 2010",
         "img": "img/portfolio/first.jpg",
         "id": "portfolioModal1",
@@ -12,7 +12,7 @@
 
     {
         "title": "OOverlap",
-        "info": "OOverlap is a web application developed by Team Undefined that allows you to check if you and your friends have available time to hang out. <a href=\"https://ooverlap.herokuapp.com\">Click here</a> to go to the website.",
+        "info": "OOverlap is a web application developed by Team Undefined that allows you to check if you and your friends have available time to hang out.",
         "date": "December 2014",
         "img": "img/portfolio/overlap.png",
         "id": "portfolioModal2",
@@ -22,7 +22,7 @@
 
     {
         "title": "Boola Boola University",
-        "info": "Desktop application developed in Java that simulates a typical University registration system. This application uses a data base that keeps a track of all resgistered students as well as their courses. Alsways making sure that there is no overlap in their schedule.",
+        "info": "Desktop application developed in Java that simulates a classic University registration system. This application uses a database that keeps a track of all resgistered students as well as their courses. It ensures that there are no overlaps in their schedule.",
         "date": "October 2010",
         "img": "img/portfolio/Boola.png",
         "id": "portfolioModal3",
@@ -31,7 +31,7 @@
 
     {
         "title": "Java Examinator",
-        "info": "This program, is a simple program that simulates the JAVA Certification Examination. First, you would have to provide your user id and your four-digit password to start the exam. If the user successfully logs in, a preparation message will pup up to inform the user that he/she has 10 minutes to answer 20 questions about JAVA. The exam will start as soon as the user presses ENTER. The user id, password, and the number of exams taken by an user are stored in a database. All the questions that the program uses are also stored in a database. All questions are devided in four levels of difficulty, level one the lowest and level four the highest. ",
+        "info": "This program, is that simulates the JAVA Certification Examination. First, you would have to provide your user id and your four-digit password to start the exam. If the user successfully logs in, a preparation message will pup up to inform the user that he/she has 10 minutes to answer 20 questions about JAVA. The exam will start as soon as the user presses ENTER. The user id, password, and the number of exams taken by an user are stored in a MySQL database. All the questions that the program uses are also stored in a MySQL database. All questions are devided in four levels of difficulty, level one the lowest and level four the highest.",
         "date": "December 2010",
         "img": "img/portfolio/javaexam.png",
         "id": "portfolioModal7",
@@ -40,7 +40,7 @@
 
     {
         "title": "Roger The Robot",
-        "info": "Roger is a virtual robot programmed in desktop simulator developed in C. This robot uses principles such as; Inverse kinematics, PD controllers, and more. There is no Github repository available for this project, but stay tuned because there will be one soon!",
+        "info": "Roger is a virtual robot programmed in desktop simulator developed in C. This robot uses principles such as; Inverse kinematics, PD controllers, and more.",
         "date": "December 2014",
         "img": "img/portfolio/roger.png",
         "id": "portfolioModal8",
@@ -70,7 +70,7 @@
         "gitlink": "https://github.com/emccode/viprcommand"
     }, {
         "title": "Under construction",
-        "info": "lorem ipsum",
+        "info": "I am working on a new independent project. More info will be posted soon.",
         "date": "present",
         "img": "img/portfolio/under.png",
         "id": "portfolioModal12",
