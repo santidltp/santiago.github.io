@@ -10,6 +10,7 @@
     },
 
 
+
     {
         "title": "OOverlap",
         "info": "OOverlap is a web application developed by Team Undefined that allows you to check if you and your friends have available time to hang out.",
@@ -75,6 +76,13 @@
         "img": "img/portfolio/under.png",
         "id": "portfolioModal12",
         "gitlink": ""
+    }, {
+        "title": "Lecture Viewer",
+        "info": "sdfsdsf",
+        "date": "May 2015",
+        "img": "",
+        "id": "portfolioModal13",
+        "gitlink": "https://github.com/ripples/lecture-viewer-legacy"
     }
 
 

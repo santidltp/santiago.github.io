@@ -4,6 +4,7 @@
 	var tk="https://raw.githubusercontent.com/santidltp/santidltp.github.io/master/json/technologies.json"
 	var ic="https://raw.githubusercontent.com/santidltp/santidltp.github.io/master/json/proIcons.json"
 	var pj="https://raw.githubusercontent.com/santidltp/santidltp.github.io/master/json/proInfo.json"
+
 	
 	portApp.controller('experienceCTRL',['$scope', '$http', function($scope,$http){
 		$http.get(xp).success(function(data){
