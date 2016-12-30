@@ -91,12 +91,12 @@
         "id": "portfolioModal14",
         "gitlink": ""
     }, {
-        "title": "Under construction",
-        "info": "I am working on a new independent project. More info will be posted soon. twi",
+        "title": "Schedule Reminder",
+        "info": "I am working on a new independent project. More info will be posted soon. Check out the repo for its progress. #twi",
         "date": "present",
-        "img": "img/portfolio/under.png",
+        "img": "img/portfolio/noimage.png",
         "id": "portfolioModal16",
-        "gitlink": ""
+        "gitlink": "https://github.com/santidltp/scheduleReminder"
     }
 
 
