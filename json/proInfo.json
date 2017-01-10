@@ -92,7 +92,7 @@
         "gitlink": ""
     }, {
         "title": "Schedule Reminder",
-        "info": "MEANJS full-stack application that helps you create, organize, and set timer to your reminders. Once your timer has finalized, you will received a text message.",
+        "info": "Schedule Reminder is a MEANJS full-stack application that helps you create, organize, and schedule your reminders. Once your timer has finalized, you will received a text message.",
         "date": "present",
         "img": "img/portfolio/schedulereminder.png",
         "id": "portfolioModal16",
