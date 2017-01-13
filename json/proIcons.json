@@ -3,13 +3,13 @@
     "img": "img/portfolio/schedulereminder.png"
 },
 
-// {
-//     "href": "#portfolioModal14",
-//     "img": "img/portfolio/under.png"
-// }, {
-//     "href": "#portfolioModal12",
-//     "img": "img/portfolio/under.png"
-// }, 
+{
+    "href": "#portfolioModal14",
+    "img": "img/portfolio/under.png"
+}, {
+    "href": "#portfolioModal12",
+    "img": "img/portfolio/under.png"
+}, 
 
 
 {
