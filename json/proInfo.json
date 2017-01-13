@@ -31,6 +31,35 @@
     },
 
     {
+        "title": "Tic Tac Toe",
+        "info":"",
+        "date": "",
+        "img": "img/portfolio/ticscreen.png",
+        "id": "portfolioModal4",
+        "gitlink": "https://github.com/santidltp/Tic-Tac-Toe"
+    },
+
+    {
+        "title": "Slot Machine",
+        "info":"",
+        "date": "",
+        "img": "img/portfolio/slotmachine2.png",
+        "id": "portfolioModal5",
+        "gitlink": "https://github.com/santidltp/Slot-Machine"
+    },
+
+    {
+        "title": "Hardware Store",
+        "info":"",
+        "date": "",
+        "img": "img/portfolio/hardwarestore.png",
+        "id": "portfolioModal6",
+        "gitlink": "https://github.com/santidltp/Hardware-store"
+    },
+
+
+
+    {
         "title": "Java Examinator",
         "info": "This program, is that simulates the JAVA Certification Examination. First, you would have to provide your user id and your four-digit password to start the exam. If the user successfully logs in, a preparation message will pup up to inform the user that he/she has 10 minutes to answer 20 questions about JAVA. The exam will start as soon as the user presses ENTER. The user id, password, and the number of exams taken by an user are stored in a MySQL database. All the questions that the program uses are also stored in a MySQL database. All questions are devided in four levels of difficulty, level one the lowest and level four the highest.",
         "date": "December 2010",
