@@ -86,18 +86,18 @@
         "gitlink": ""
     }, {
         "title": "CoPRHD",
-        "info": "lorem ipsum",
+        "info": "Contributed to EMC's largest open source project, CoPRHD. I have developed new features, provided bug fixes, improved log messages, and more.",
         "date": "present",
         "img": "img/portfolio/coprhd.png",
         "id": "portfolioModal10",
         "gitlink": "https://github.com/CoprHD/coprhd-controller"
     }, {
         "title": "ViPR Command",
-        "info": "lorem ipsum",
+        "info": "Developed command-line interface for ViPR Controller & CoPRHD using python.",
         "date": "present",
         "img": "img/portfolio/vipr.png",
         "id": "portfolioModal11",
-        "gitlink": "https://github.com/emccode/viprcommand"
+        "gitlink": "https://github.com/codedellemc/viprcommand"
     }, {
         "title": "Under construction",
         "info": "I am working on a new independent project. More info will be posted soon. oMo",
