@@ -10,7 +10,6 @@
     <meta name="keywords" content="estoraquenorman">
     <title>Santiago</title>
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="css/freelancer.css" rel="stylesheet">
     <link href="css/personal.css" rel="stylesheet">
@@ -21,51 +20,10 @@
     <link href="fonts/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+     <link href="css/materialize.min.css" rel="stylesheet">     
 </head>
 <!--the sintezizer/-->
 <body id="page-top" class="index">
-    <!-- Navigation -->
-    <!--<nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">-->
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <!--<div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-            </div>-->
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="page-scroll">
-                            <a href="#page-top">Home</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#education">Education</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#portfolio">Projects</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#experience">Experience</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#technologies">Technologies</a>
-                        </li>
-
->>>>>>> 6ae4453106ca93272f89baefabd5c43fd0ec95d6
-                    </ul>
-                </div>-->
-    <!-- /.navbar-collapse -->
-    <!--</div>-->
-    <!-- /.container-fluid -->
-    <!--</nav>-->
-    <!-- Header -->
     <header>
         <div class="container" style="padding-top: 60px;">
             <div class="row banner ">
@@ -77,7 +35,9 @@
                             <p class="text-muted">Software Engineer</p>
                             <ul class="list-inline item-details">
                                 <li>
-                                    <a href="http://github.com/santidltp" class="btn btn-social-icon btn-xs btn-github"><i class="fa fa-github"></i></a>
+                            <a class="btn btn-floating pulse"><i class="material-icons">menu</i></a>
+                                    
+                                    <a href="http://github.com/santidltp" class="btn btn-social-icon btn-xs btn-github pulse"><i class="fa fa-github"></i></a>
                                 </li>
                                 <li>
                                     <a href="http://linkedin.com/in/santidltp" class="btn btn-social-icon btn-xs btn-linkedin"><i class="fa fa-linkedin"></i></a>
@@ -173,57 +133,11 @@
         </div>
         </div>
     </header>
-    <!-- Education Grid Section -->
-    <!-- Portfolio Grid Section -->
-    <!-- Experience Section -->
-    <!-- About Section -->
-    <!-- Technologies Section -->
-    <!-- Footer -->
-    <!--<footer class="footer">
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <center>Copyright &copy; Santiago De La Torre 2017</center>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>-->
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll visible-xs visble-sm">
         <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
-    <!-- Portfolio Modals -->
-    <!--<div ng-controller="proCTRL">
-        <div ng-repeat="info in projects">
-            <div class="modal fade" id="{{info.id}}" tabindex="0" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">{{info.title}}</h4>
-                        </div>
-                    </div>
-                    <div class="modal-body">
-                        <h2>{{info.title}}</h2>
-                        <hr class="star-primary">
-                        <img src="{{info.img}}" class="img-responsive img-centered " alt="">
-                        <p>{{info.info}}</p>
-                        <ul class="list-inline item-details">
-                            <li>Date:
-                                <strong>{{info.date}}</strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>-->
     <div ng-controller="proCTRL">
         <div ng-repeat="info in projects">
             <div class="modal fade" id="{{info.id}}" role="dialog">
