@@ -92,11 +92,11 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #151515;
     /*background: url(../img/fa.jpg) no-repeat bottom center scroll;*/
     background-position-x: 50%;
     background-position-y: 100%;
-    background-color: #151515;
+    background-color: #f7f7f7;
 }
 
 header .container {
