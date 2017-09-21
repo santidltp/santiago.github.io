@@ -20,13 +20,6 @@
     "id": "portfolioModal3",
     "gitlink": "https://github.com/santidltp/Boola"
 }, {
-    "title": "Tic Tac Toe",
-    "info": "",
-    "date": "",
-    "img": "img/portfolio/ticscreen.png",
-    "id": "portfolioModal4",
-    "gitlink": "https://github.com/santidltp/Tic-Tac-Toe"
-}, {
     "title": "Hardware Store",
     "info": "",
     "date": "",
@@ -69,26 +62,12 @@
     "id": "portfolioModal11",
     "gitlink": "https://github.com/codedellemc/viprcommand"
 }, {
-    "title": "Under construction",
-    "info": "I am working on a new independent project. More info will be posted soon. oMo",
-    "date": "present",
-    "img": "img/portfolio/under.png",
-    "id": "portfolioModal12",
-    "gitlink": ""
-}, {
     "title": "Lecture Viewer",
     "info": "sdfsdsf",
     "date": "May 2015",
     "img": "img/portfolio/noimage.png",
     "id": "portfolioModal13",
     "gitlink": "https://github.com/ripples/lecture-viewer-legacy"
-}, {
-    "title": "Under construction",
-    "info": "I am working on a new independent project. More info will be posted soon. Examiner",
-    "date": "present",
-    "img": "img/portfolio/under.png",
-    "id": "portfolioModal14",
-    "gitlink": ""
 }, {
     "title": "Schedule Reminder",
     "info": "Schedule Reminder is a MEANJS full-stack application that helps you create, organize, and schedule your reminders. Once your timer has finalized, you will received a text message.",
