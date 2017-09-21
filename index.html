@@ -86,7 +86,7 @@
                             <div class="container-fluid">
                                 <div class="row" ng-controller="experienceCTRL">
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-lg-offset-0">
                                             <p class="logo">Work Experience</p>
                                         </div>
                                     </div>
@@ -122,7 +122,7 @@
                                                 <div class="caption-content">
                                                 </div>
                                             </div>
-                                            <img src="{{icon.img}}" class="img-responsive img-rounded z-depth-4" alt="" style="width:70px; height:50px">
+                                            <img ng-src="{{icon.img}}" class="img-responsive img-rounded z-depth-4" alt="" style="width:70px; height:50px">
                                         </a>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@
                             </center>
                         </div>
                         <div class="modal-body">
-                            <center><img src="{{info.img}}" style="width: 400px; height: 264px;"></center>
+                            <center><img ng-src="{{info.img}}" style="width: 400px; height: 264px;"></center>
                             <p>{{info.info}}</p>
                         </div>
                         <div class="modal-footer">
