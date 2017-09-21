@@ -4834,7 +4834,7 @@ small {
 .waves-effect .waves-ripple {
     z-index: -1
 }
-
+/*
 .modal {
     display: none;
     position: fixed;
@@ -4924,7 +4924,7 @@ small {
     border-radius: 0;
     will-change: bottom, opacity
 }
-
+*/
 .collapsible {
     border-top: 1px solid #ddd;
     border-right: 1px solid #ddd;
