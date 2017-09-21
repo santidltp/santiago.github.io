@@ -6579,8 +6579,8 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 
-ackground-color: #26a69a
-}
+/*ackground-color: #26a69a
+}*/
 
 .side-nav li>a>i,
 .side-nav li>a>[class^="mdi-"],
